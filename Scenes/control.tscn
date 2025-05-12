@@ -1,0 +1,58 @@
+[gd_scene load_steps=6 format=3 uid="uid://c8fyylek07h01"]
+
+[ext_resource type="Texture2D" uid="uid://cqhy8n8qwupfc" path="res://assets/Button.png" id="1_0fbet"]
+
+[sub_resource type="Theme" id="Theme_r0du0"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cm0pq"]
+atlas = ExtResource("1_0fbet")
+region = Rect2(173, 433, 425, 189)
+
+[sub_resource type="LabelSettings" id="LabelSettings_fos0i"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uu6xs"]
+atlas = ExtResource("1_0fbet")
+region = Rect2(3502, 537, 181, 189)
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1920.0
+offset_bottom = 1088.0
+scale = Vector2(0.331589, 0.331265)
+
+[node name="Build Shop" type="Button" parent="."]
+layout_mode = 0
+offset_left = 8.00006
+offset_top = 1016.0
+offset_right = 441.0
+offset_bottom = 1213.0
+scale = Vector2(0.292862, 0.281848)
+theme = SubResource("Theme_r0du0")
+icon = SubResource("AtlasTexture_cm0pq")
+
+[node name="Label" type="Label" parent="Build Shop"]
+layout_mode = 0
+offset_left = 27.317
+offset_top = 28.3841
+offset_right = 110.317
+offset_bottom = 51.3841
+scale = Vector2(4.50393, 4.72358)
+theme_override_constants/shadow_offset_x = 0
+text = "Build Shop"
+label_settings = SubResource("LabelSettings_fos0i")
+horizontal_alignment = 3
+vertical_alignment = 1
+
+[node name="Exit Game" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1869.79
+offset_right = 2058.79
+offset_bottom = 197.0
+scale = Vector2(0.320981, 0.297458)
+icon = SubResource("AtlasTexture_uu6xs")
+
+[node name="Label" type="Label" parent="Exit Game"]
+layout_mode = 0
+offset_right = 185.0
+offset_bottom = 198.0

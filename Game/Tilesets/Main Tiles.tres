@@ -1,0 +1,152 @@
+[gd_resource type="TileSet" load_steps=16 format=3 uid="uid://drni8n6h67w0x"]
+
+[ext_resource type="Texture2D" uid="uid://bwa42hpy6xynn" path="res://assets/Solaria Demo Tiles.png" id="1_ffbam"]
+[ext_resource type="Texture2D" uid="uid://ckw1et8at75qr" path="res://assets/World of Solaria Blacksmith New Style DEMO.png" id="2_pp6om"]
+[ext_resource type="Texture2D" uid="uid://cgo8kn380pckt" path="res://assets/Window.png" id="3_ncsti"]
+[ext_resource type="Texture2D" uid="uid://nsxxroisx3gt" path="res://assets/Solaria Crops DEMO.png" id="4_4rwqx"]
+[ext_resource type="Texture2D" uid="uid://3dpwddrs5i8m" path="res://assets/World of Solaria Marketplace Update 05 DEMO.png" id="5_lus57"]
+[ext_resource type="Texture2D" uid="uid://cd5uwnehje7rf" path="res://assets/World of Solaria Interiors New Style DEMO.png" id="6_mwwxi"]
+[ext_resource type="Texture2D" uid="uid://cqcs37kj3shj3" path="res://assets/World of Solaria Crafting Materials ICon Pack Update 02 DEMO.png" id="7_fqtmk"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_bdnxa"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_uu6xs"]
+resource_name = "Tree"
+texture = ExtResource("1_ffbam")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+5:0/0/terrain_set = 0
+5:0/0/terrain = 0
+5:0/0/terrains_peering_bit/right_side = 0
+5:0/0/terrains_peering_bit/bottom_right_corner = 0
+5:0/0/terrains_peering_bit/bottom_side = 0
+5:0/0/terrains_peering_bit/bottom_left_corner = 0
+5:0/0/terrains_peering_bit/left_side = 0
+5:0/0/terrains_peering_bit/top_left_corner = 0
+5:0/0/terrains_peering_bit/top_side = 0
+5:0/0/terrains_peering_bit/top_right_corner = 0
+6:0/0 = 0
+6:0/0/terrain_set = 0
+6:0/0/terrain = 0
+6:0/0/terrains_peering_bit/right_side = 0
+6:0/0/terrains_peering_bit/bottom_right_corner = 0
+6:0/0/terrains_peering_bit/bottom_side = 0
+6:0/0/terrains_peering_bit/bottom_left_corner = 0
+6:0/0/terrains_peering_bit/left_side = 0
+6:0/0/terrains_peering_bit/top_left_corner = 0
+6:0/0/terrains_peering_bit/top_side = 0
+6:0/0/terrains_peering_bit/top_right_corner = 0
+6:1/0 = 0
+6:1/0/terrain_set = 0
+6:1/0/terrain = 0
+6:1/0/terrains_peering_bit/right_side = 0
+6:1/0/terrains_peering_bit/bottom_right_corner = 0
+6:1/0/terrains_peering_bit/bottom_side = 0
+6:1/0/terrains_peering_bit/bottom_left_corner = 0
+6:1/0/terrains_peering_bit/left_side = 0
+6:1/0/terrains_peering_bit/top_left_corner = 0
+6:1/0/terrains_peering_bit/top_side = 0
+6:1/0/terrains_peering_bit/top_right_corner = 0
+5:1/0 = 0
+5:1/0/terrain_set = 0
+5:1/0/terrain = 0
+5:1/0/terrains_peering_bit/right_side = 0
+5:1/0/terrains_peering_bit/bottom_right_corner = 0
+5:1/0/terrains_peering_bit/bottom_side = 0
+5:1/0/terrains_peering_bit/bottom_left_corner = 0
+5:1/0/terrains_peering_bit/left_side = 0
+5:1/0/terrains_peering_bit/top_left_corner = 0
+5:1/0/terrains_peering_bit/top_side = 0
+5:1/0/terrains_peering_bit/top_right_corner = 0
+4:1/0 = 0
+4:2/0 = 0
+3:2/0 = 0
+2:2/0 = 0
+2:1/0 = 0
+1:1/0 = 0
+0:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+3:1/0 = 0
+1:7/0 = 0
+1:7/0/terrain_set = 0
+1:7/0/terrain = 0
+7:0/size_in_atlas = Vector2i(3, 3)
+7:0/0 = 0
+7:0/0/terrain_set = 0
+0:6/0 = 0
+1:6/0 = 0
+2:7/0 = 0
+2:8/0 = 0
+2:6/0 = 0
+1:8/0 = 0
+0:8/0 = 0
+0:7/0 = 0
+3:6/0 = 0
+3:7/0 = 0
+4:6/0 = 0
+4:7/0 = 0
+5:6/0 = 0
+5:7/0 = 0
+6:6/0 = 0
+6:7/0 = 0
+0:9/0 = 0
+0:10/0 = 0
+0:11/0 = 0
+1:9/0 = 0
+1:10/0 = 0
+1:11/0 = 0
+2:9/0 = 0
+2:10/0 = 0
+2:11/0 = 0
+10:3/0 = 0
+11:3/0 = 0
+12:3/0 = 0
+12:4/0 = 0
+11:4/0 = 0
+10:4/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_kw1qs"]
+texture = ExtResource("2_pp6om")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ko3kr"]
+texture = ExtResource("3_ncsti")
+126:145/0 = 0
+125:145/0 = 0
+124:146/0 = 0
+123:146/0 = 0
+122:147/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cejmi"]
+texture = ExtResource("4_4rwqx")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0hd3o"]
+texture = ExtResource("5_lus57")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bfm6a"]
+texture = ExtResource("6_mwwxi")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3dn1e"]
+texture = ExtResource("7_fqtmk")
+
+[resource]
+physics_layer_0/collision_layer = 1
+physics_layer_0/collision_mask = 3
+physics_layer_0/physics_material = SubResource("PhysicsMaterial_bdnxa")
+terrain_set_0/mode = 0
+terrain_set_0/terrain_0/name = "Grass"
+terrain_set_0/terrain_0/color = Color(1.16717e-06, 0.466693, 0.163861, 1)
+terrain_set_0/terrain_1/name = "Dirt 1"
+terrain_set_0/terrain_1/color = Color(0.375722, 0.274349, 0, 1)
+navigation_layer_0/layers = 1
+sources/0 = SubResource("TileSetAtlasSource_uu6xs")
+sources/7 = SubResource("TileSetAtlasSource_0hd3o")
+sources/8 = SubResource("TileSetAtlasSource_bfm6a")
+sources/9 = SubResource("TileSetAtlasSource_3dn1e")
+sources/10 = SubResource("TileSetAtlasSource_kw1qs")
+sources/11 = SubResource("TileSetAtlasSource_ko3kr")
+sources/12 = SubResource("TileSetAtlasSource_cejmi")

@@ -1,0 +1,33 @@
+[gd_scene load_steps=5 format=3 uid="uid://cmlodwwwdlm2e"]
+
+[ext_resource type="Script" uid="uid://drgr6tkior3fw" path="res://Scenes/mushie_person.gd" id="1_1hwmm"]
+[ext_resource type="Texture2D" uid="uid://cuu3mhwfvyci7" path="res://Game/characters/Mushie Person.png" id="1_ucvy7"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_t0wpp"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_ucvy7")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_uu6xs"]
+
+[node name="Player" type="CharacterBody2D"]
+z_index = 2
+script = ExtResource("1_1hwmm")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(3, 0)
+sprite_frames = SubResource("SpriteFrames_t0wpp")
+
+[node name="Camera2D" type="Camera2D" parent="AnimatedSprite2D"]
+scale = Vector2(0.269733, 0.304731)
+zoom = Vector2(2.84, 2.84)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(3, 0)
+shape = SubResource("CircleShape2D_uu6xs")

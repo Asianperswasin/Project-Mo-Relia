@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://doerm7xlwbrc6"]
+
+[ext_resource type="Texture2D" uid="uid://2np53qkhttxr" path="res://assets/shroom shop 32px-export.png" id="1_kjfcx"]
+
+[sub_resource type="PlaceholderMesh" id="PlaceholderMesh_g0xeh"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c53l5"]
+
+[node name="Shop" type="Node2D"]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="."]
+mesh = SubResource("PlaceholderMesh_g0xeh")
+texture = SubResource("AtlasTexture_c53l5")
+
+[node name="Sprite2D" type="Sprite2D" parent="MeshInstance2D"]
+texture_filter = 1
+position = Vector2(2, -1)
+texture = ExtResource("1_kjfcx")
